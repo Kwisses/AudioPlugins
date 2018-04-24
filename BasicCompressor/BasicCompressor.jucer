@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT name="BasicCompressor" projectType="audioplug" buildStandalone="1"
+              jucerVersion="5.3.0" companyName="Kwistech" companyCopyright="2018"
+              companyWebsite="https://github.com/Kwistech" companyEmail="johnkwisses@gmail.com"
+              buildVST="0" buildVST3="1" buildAU="1" buildAUv3="1" pluginName="BasicCompressor"
+              pluginDesc="A basic audio compressor." pluginManufacturer="Kwistech"
+              cppLanguageStandard="17" headerPath="D:\Downloads\vstsdk369_01_03_2018_build_132\VST_SDK\VST3_SDK">
+  <MAINGROUP id="VJ5lwJ" name="BasicCompressor">
+    <GROUP id="{D3ABB521-6F39-3BEB-A87C-461BDCBF2123}" name="Source">
+      <FILE id="w9PRje" name="Compressor.cpp" compile="1" resource="0" file="Source/Compressor.cpp"/>
+      <FILE id="ICdXwc" name="Compressor.h" compile="0" resource="0" file="Source/Compressor.h"/>
+      <FILE id="mcm94J" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="esEnBn" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="ANiQQo" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="PT5PsP" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017" vst3Folder="">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../Projucer/JUCE-master/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Projucer/JUCE-master/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Projucer/JUCE-master/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Projucer/JUCE-master/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Projucer/JUCE-master/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../Projucer/JUCE-master/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../Projucer/JUCE-master/modules"/>
+        <MODULEPATH id="juce_video" path="../../../Projucer/JUCE-master/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../Projucer/JUCE-master/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../Projucer/JUCE-master/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../Projucer/JUCE-master/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../Projucer/JUCE-master/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../Projucer/JUCE-master/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../Projucer/JUCE-master/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../Projucer/JUCE-master/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../../Projucer/JUCE-master/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
